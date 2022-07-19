@@ -1,0 +1,15 @@
+<html>
+    <body>
+        <form action="/" method="POST">
+            Bidding Amount($)
+            <input type="text" name="bid"><br>
+            <button type="submit" value="submit">Calculate</button>
+        </form>
+        {%if total%}
+        <p>Total in ($): {{total}}</p>
+        {%endif%}
+        {%if omr%}
+        <p>Total in (OMR): {{omr}}</p>
+        {%endif%}
+    </body>
+</html>
