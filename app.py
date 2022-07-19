@@ -89,4 +89,4 @@ def calculate():
     return render_template("index.html", total=total, omr=omr)
 
 if __name__ == "__main__":
-    app.run(host="127.0.0.1", port=8080, debug=True)
+    app.run()
